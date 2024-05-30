@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/basav/Documents/HobbyProjects/DSAAndAlgorithmsFull/EmployeeManagement/ExportAppUsers/ExportAppUsers/ExportAppUsers.csproj": {}
+  },
+  "projects": {
+    "/Users/basav/Documents/HobbyProjects/DSAAndAlgorithmsFull/EmployeeManagement/ExportAppUsers/ExportAppUsers/ExportAppUsers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/basav/Documents/HobbyProjects/DSAAndAlgorithmsFull/EmployeeManagement/ExportAppUsers/ExportAppUsers/ExportAppUsers.csproj",
+        "projectName": "ExportAppUsers",
+        "projectPath": "/Users/basav/Documents/HobbyProjects/DSAAndAlgorithmsFull/EmployeeManagement/ExportAppUsers/ExportAppUsers/ExportAppUsers.csproj",
+        "packagesPath": "/Users/basav/.nuget/packages/",
+        "outputPath": "/Users/basav/Documents/HobbyProjects/DSAAndAlgorithmsFull/EmployeeManagement/ExportAppUsers/ExportAppUsers/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/basav/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/polestar/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.0-preview2, )"
+            },
+            "ClosedXML_Excel": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.7.4, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.54.0, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.61.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "OfficeOpenXml.Core.ExcelPackage": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
